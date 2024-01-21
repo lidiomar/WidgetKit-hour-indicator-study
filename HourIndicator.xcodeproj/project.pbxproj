@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7005B4352B0BA653002EFEC5 /* TapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7005B4342B0BA653002EFEC5 /* TapView.swift */; };
+		7005B4392B0BF7E9002EFEC5 /* HourIndicatorIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7005B4362B0BF7A0002EFEC5 /* HourIndicatorIntent.swift */; };
+		705E1D602B0AB7E70061179E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705E1D5E2B0AB6A00061179E /* Helpers.swift */; };
+		7067A59C2B0EB973001C00AB /* SelectColorIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7067A59B2B0EB973001C00AB /* SelectColorIntent.swift */; };
+		70F081A92B0805E800C1C58B /* HourIndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F081A82B0805E800C1C58B /* HourIndicatorApp.swift */; };
+		70F081AB2B0805E800C1C58B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F081AA2B0805E800C1C58B /* ContentView.swift */; };
+		70F081AD2B0805E900C1C58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F081AC2B0805E900C1C58B /* Assets.xcassets */; };
+		70F081B02B0805E900C1C58B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F081AF2B0805E900C1C58B /* Preview Assets.xcassets */; };
+		70F081BD2B08060D00C1C58B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F081BC2B08060D00C1C58B /* WidgetKit.framework */; };
+		70F081BF2B08060D00C1C58B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F081BE2B08060D00C1C58B /* SwiftUI.framework */; };
+		70F081C22B08060D00C1C58B /* HourIndicatorWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F081C12B08060D00C1C58B /* HourIndicatorWidgetBundle.swift */; };
+		70F081C42B08060D00C1C58B /* HourIndicatorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F081C32B08060D00C1C58B /* HourIndicatorWidget.swift */; };
+		70F081C62B08060E00C1C58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F081C52B08060E00C1C58B /* Assets.xcassets */; };
+		70F081CA2B08060E00C1C58B /* HourIndicatorWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 70F081BA2B08060D00C1C58B /* HourIndicatorWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70F081C82B08060E00C1C58B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F0819D2B0805E800C1C58B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F081B92B08060D00C1C58B;
+			remoteInfo = HourIndicatorWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70F081CE2B08060F00C1C58B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				70F081CA2B08060E00C1C58B /* HourIndicatorWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7005B4342B0BA653002EFEC5 /* TapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapView.swift; sourceTree = "<group>"; };
+		7005B4362B0BF7A0002EFEC5 /* HourIndicatorIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourIndicatorIntent.swift; sourceTree = "<group>"; };
+		7005B43D2B0C49FB002EFEC5 /* HourIndicator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HourIndicator.entitlements; sourceTree = "<group>"; };
+		7005B43E2B0C4A04002EFEC5 /* HourIndicatorWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HourIndicatorWidgetExtension.entitlements; sourceTree = "<group>"; };
+		705E1D5E2B0AB6A00061179E /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		7067A59B2B0EB973001C00AB /* SelectColorIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectColorIntent.swift; sourceTree = "<group>"; };
+		70F081A52B0805E800C1C58B /* HourIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HourIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F081A82B0805E800C1C58B /* HourIndicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourIndicatorApp.swift; sourceTree = "<group>"; };
+		70F081AA2B0805E800C1C58B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		70F081AC2B0805E900C1C58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70F081AF2B0805E900C1C58B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70F081BA2B08060D00C1C58B /* HourIndicatorWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HourIndicatorWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F081BC2B08060D00C1C58B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		70F081BE2B08060D00C1C58B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		70F081C12B08060D00C1C58B /* HourIndicatorWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourIndicatorWidgetBundle.swift; sourceTree = "<group>"; };
+		70F081C32B08060D00C1C58B /* HourIndicatorWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourIndicatorWidget.swift; sourceTree = "<group>"; };
+		70F081C52B08060E00C1C58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70F081C72B08060E00C1C58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F081A22B0805E800C1C58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F081B72B08060D00C1C58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F081BF2B08060D00C1C58B /* SwiftUI.framework in Frameworks */,
+				70F081BD2B08060D00C1C58B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7067A59A2B0EB940001C00AB /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				7005B4362B0BF7A0002EFEC5 /* HourIndicatorIntent.swift */,
+				7067A59B2B0EB973001C00AB /* SelectColorIntent.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		70F0819C2B0805E800C1C58B = {
+			isa = PBXGroup;
+			children = (
+				7005B43E2B0C4A04002EFEC5 /* HourIndicatorWidgetExtension.entitlements */,
+				70F081A72B0805E800C1C58B /* HourIndicator */,
+				70F081C02B08060D00C1C58B /* HourIndicatorWidget */,
+				70F081BB2B08060D00C1C58B /* Frameworks */,
+				70F081A62B0805E800C1C58B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70F081A62B0805E800C1C58B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70F081A52B0805E800C1C58B /* HourIndicator.app */,
+				70F081BA2B08060D00C1C58B /* HourIndicatorWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F081A72B0805E800C1C58B /* HourIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				7005B43D2B0C49FB002EFEC5 /* HourIndicator.entitlements */,
+				70F081A82B0805E800C1C58B /* HourIndicatorApp.swift */,
+				70F081AA2B0805E800C1C58B /* ContentView.swift */,
+				7005B4342B0BA653002EFEC5 /* TapView.swift */,
+				70F081AC2B0805E900C1C58B /* Assets.xcassets */,
+				70F081AE2B0805E900C1C58B /* Preview Content */,
+			);
+			path = HourIndicator;
+			sourceTree = "<group>";
+		};
+		70F081AE2B0805E900C1C58B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				70F081AF2B0805E900C1C58B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		70F081BB2B08060D00C1C58B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F081BC2B08060D00C1C58B /* WidgetKit.framework */,
+				70F081BE2B08060D00C1C58B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70F081C02B08060D00C1C58B /* HourIndicatorWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7067A59A2B0EB940001C00AB /* Intents */,
+				705E1D5E2B0AB6A00061179E /* Helpers.swift */,
+				70F081C12B08060D00C1C58B /* HourIndicatorWidgetBundle.swift */,
+				70F081C32B08060D00C1C58B /* HourIndicatorWidget.swift */,
+				70F081C52B08060E00C1C58B /* Assets.xcassets */,
+				70F081C72B08060E00C1C58B /* Info.plist */,
+			);
+			path = HourIndicatorWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70F081A42B0805E800C1C58B /* HourIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F081B32B0805E900C1C58B /* Build configuration list for PBXNativeTarget "HourIndicator" */;
+			buildPhases = (
+				70F081A12B0805E800C1C58B /* Sources */,
+				70F081A22B0805E800C1C58B /* Frameworks */,
+				70F081A32B0805E800C1C58B /* Resources */,
+				70F081CE2B08060F00C1C58B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F081C92B08060E00C1C58B /* PBXTargetDependency */,
+			);
+			name = HourIndicator;
+			productName = HourIndicator;
+			productReference = 70F081A52B0805E800C1C58B /* HourIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70F081B92B08060D00C1C58B /* HourIndicatorWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F081CB2B08060F00C1C58B /* Build configuration list for PBXNativeTarget "HourIndicatorWidgetExtension" */;
+			buildPhases = (
+				70F081B62B08060D00C1C58B /* Sources */,
+				70F081B72B08060D00C1C58B /* Frameworks */,
+				70F081B82B08060D00C1C58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HourIndicatorWidgetExtension;
+			productName = HourIndicatorWidgetExtension;
+			productReference = 70F081BA2B08060D00C1C58B /* HourIndicatorWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70F0819D2B0805E800C1C58B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					70F081A42B0805E800C1C58B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					70F081B92B08060D00C1C58B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 70F081A02B0805E800C1C58B /* Build configuration list for PBXProject "HourIndicator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70F0819C2B0805E800C1C58B;
+			productRefGroup = 70F081A62B0805E800C1C58B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70F081A42B0805E800C1C58B /* HourIndicator */,
+				70F081B92B08060D00C1C58B /* HourIndicatorWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F081A32B0805E800C1C58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F081B02B0805E900C1C58B /* Preview Assets.xcassets in Resources */,
+				70F081AD2B0805E900C1C58B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F081B82B08060D00C1C58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F081C62B08060E00C1C58B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F081A12B0805E800C1C58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F081AB2B0805E800C1C58B /* ContentView.swift in Sources */,
+				70F081A92B0805E800C1C58B /* HourIndicatorApp.swift in Sources */,
+				7005B4352B0BA653002EFEC5 /* TapView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F081B62B08060D00C1C58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F081C22B08060D00C1C58B /* HourIndicatorWidgetBundle.swift in Sources */,
+				7005B4392B0BF7E9002EFEC5 /* HourIndicatorIntent.swift in Sources */,
+				70F081C42B08060D00C1C58B /* HourIndicatorWidget.swift in Sources */,
+				7067A59C2B0EB973001C00AB /* SelectColorIntent.swift in Sources */,
+				705E1D602B0AB7E70061179E /* Helpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70F081C92B08060E00C1C58B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F081B92B08060D00C1C58B /* HourIndicatorWidgetExtension */;
+			targetProxy = 70F081C82B08060E00C1C58B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70F081B12B0805E900C1C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70F081B22B0805E900C1C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70F081B42B0805E900C1C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HourIndicator/HourIndicator.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HourIndicator/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CUQWQ78DD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.test.HourIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70F081B52B0805E900C1C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HourIndicator/HourIndicator.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HourIndicator/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CUQWQ78DD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.test.HourIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		70F081CC2B08060F00C1C58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HourIndicatorWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CUQWQ78DD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HourIndicatorWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HourIndicatorWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.test.HourIndicator.HourIndicatorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70F081CD2B08060F00C1C58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HourIndicatorWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9CUQWQ78DD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HourIndicatorWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HourIndicatorWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.test.HourIndicator.HourIndicatorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70F081A02B0805E800C1C58B /* Build configuration list for PBXProject "HourIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F081B12B0805E900C1C58B /* Debug */,
+				70F081B22B0805E900C1C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F081B32B0805E900C1C58B /* Build configuration list for PBXNativeTarget "HourIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F081B42B0805E900C1C58B /* Debug */,
+				70F081B52B0805E900C1C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F081CB2B08060F00C1C58B /* Build configuration list for PBXNativeTarget "HourIndicatorWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F081CC2B08060F00C1C58B /* Debug */,
+				70F081CD2B08060F00C1C58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70F0819D2B0805E800C1C58B /* Project object */;
+}
